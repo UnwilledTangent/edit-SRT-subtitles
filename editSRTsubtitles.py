@@ -13,7 +13,7 @@ with open("Lycoris.Recoil.S01E01.WEBRip.Netflix.ja[cc] - Copy.srt", "r", encodin
 
         while currentLine != "":
             if "-->" in currentLine:
-                # suppose this is the 2nd ""--> line onwards
+                # suppose this is the 2nd "-->" line onwards
                 if secondTiming != "":
                     # paste 2ndTiming onto 1st till 12th character
                     currentLine = currentLine[12:]
