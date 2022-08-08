@@ -11,6 +11,7 @@
 
 secondTiming = ""
 
+# change the below 2 lines
 with open("Lycoris.Recoil.S01E01.WEBRip.Netflix.ja[cc] - Copy.srt", "r", encoding="utf-8") as readFile:
     with open("LycorisRecoilE01EditedSubtitles.srt", "w", encoding="utf-8") as writeFile:
         currentLine = readFile.readline()
