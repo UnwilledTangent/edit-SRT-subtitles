@@ -4,11 +4,6 @@
 # paste it on the 1st till 12th character of 2nd "-->" line
 # rinse and repeat until you hit end of file
 
-# if --> found in line
-# copy 18th character until 29th character of 1st line
-# find 2nd line with "-->"
-# paste copied character onto 1st til 12th character
-
 secondTiming = ""
 
 # change the below 2 lines
